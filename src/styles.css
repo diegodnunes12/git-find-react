@@ -5,9 +5,40 @@
 
 body {
     background-color: #1D2138;
+    font-family: 'Roboto', arial;
 }
 
 hr {
     background: rgba(229, 229, 229, 0.20);
     border: solid 1px rgba(229, 229, 229, 0.20);
+}
+
+.profile {
+    display: flex;
+    margin: 40px 0;
+    color: #999999;
+}
+
+.profile-image {
+    width: 120px;
+    height: 120px;
+    border: solid 2px #fafafa;
+    border-radius: 50%;
+    margin-right: 32px;
+}
+
+h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+span {
+    display: block;
+    font-size: 14px;
+    margin: 0;
+}
+
+p {
+    font-size: 14px;
+    margin: 20px 0 0 0;
 }
