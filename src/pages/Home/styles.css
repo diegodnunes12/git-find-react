@@ -17,3 +17,9 @@
     margin-top: 40px;
     color: #ffffff;
 }
+
+.repositories h4 {
+    font-size: 32px;
+    color: #fafafa;
+    margin: 12px 0;
+}
